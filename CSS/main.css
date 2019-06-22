@@ -1,0 +1,402 @@
+body{
+  min-width: 320px;
+  font-size: 13pt;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo {
+  padding-left: 0px;
+}
+a.colirLink{
+  color: #fcd979 !important;
+  font-size: 14pt;
+}
+a.colirLink:hover{
+  color: #b3b3b3 !important;
+  font-size: 14pt;
+}
+.PaddingTop15{
+  padding-top: 15px;
+}
+.FontSize12{
+  font-size: 12pt;
+}
+.m20{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.m20-top{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.logoPosition
+{
+  position: absolute;
+  left:0;
+}
+.TextInTitle{
+  font-family: 'RalewayBold', sans-serif;
+  color: #2d3439;
+  font-size: 13pt;
+}
+.telInTitle{
+  font-size: 12pt;
+}
+.telInTitle:hover,
+.telInTitle:focus{
+  font-size: 12pt;
+  color: #808B96;
+}
+.textAdress{
+  font-size: 8pt;
+  font-family: 'RalewayBold', sans-serif; 
+  color: rgb(54, 54, 54);
+  font-weight: normal;
+}
+.textAdress:hover,
+.textAdress:focus{
+  font-size: 8pt;
+  color: rgb(110, 110, 110);
+  text-decoration: none;
+}
+/*BUTTONS*/
+.my_btn{
+	background-color: #2d3439;
+	border: none;
+	text-transform: uppercase;
+}
+.my_btn_callback{
+  background-color: #2d3439;
+  right:0;
+  position: absolute;
+  font-family: 'RalewayBold', sans-serif;
+}
+.my_btn_callback:hover,
+.my_btn_callback:focus
+{
+  background-color: #9ba3a8;
+  position: absolute;
+  right:0;
+}
+.btn_md{
+	padding: 10px 30px;
+}
+.menu{
+  list-style-type: none;
+  margin: auto;
+  padding: 5px;
+  text-align: center; 
+  vertical-align: middle; 
+  display: inline-block;
+  
+}
+.between_line{
+	height: 2px;
+  background-color: #f4cd67;
+}
+/*Our activity section*/
+.OurActivity{
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+.menu a{
+	color: #f4cd67;
+  font-family: 'RalewayBold', sans-serif;
+  text-decoration: none;
+}
+.menu a:hover,
+.menu a:focus{
+	text-decoration: none;
+	color: #c6ccd2;
+}
+.Section1{
+  margin-top: 15px;
+}
+.OurActivity_Header{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+.OurActivity_Header h4{
+  color: #2d3439;
+  font-family: 'RalewayBold', sans-serif;
+  font-size: 13pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Section1_Divs{
+  font-family: 'RalewayBold', sans-serif;
+  font-size: 15pt;
+  list-style-type: none;
+  margin-top: 5px;
+  margin: 12px 3px 3px 3px;
+  padding: 4px;
+  text-align: left; 
+  display: table-cell;
+  vertical-align: middle;
+}
+.Section1_Divs_ForSpan{
+  vertical-align: middle; 
+  list-style-type: none;
+  text-align: left; 
+  display: inline-block;
+}
+.Section1_Icon{
+  font-size: 20px;
+  color: #f4cd67;
+  display: inline-block;
+}
+.form_titleForSpan {              /* WRAP TEXT IN SPAN */
+  overflow: hidden;
+  padding-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: justify;
+  text-align: left;
+}
+.SpanBeforeI{
+  font-size: 30px;
+  color: #f4cd67;
+}
+.DivDeforeSpan_BeforeI{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding-right: 3px;
+  background-color: rgb(255, 255, 255);
+}
+.descriptionForPrice{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 15px;
+  background-color: rgb(255, 255, 255);
+}
+.Price{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 0px;
+  background-color: rgb(255, 255, 255);
+}
+.divWithoutPadding{
+  padding: 0px;
+}
+.Contacts_Map{
+  padding-top: 20px;
+  text-align: center;
+}
+.phoneButton{
+  background-color: #fff;
+  padding: 2; 
+  border: 0;
+}
+.phoneButton:hover,
+.phoneButton:focus{
+	text-decoration: none;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  border-color:  rgb(255, 255, 255);
+}
+.envelopeButton{
+  background-color: #fff;
+  padding: 1; 
+  border: 0;
+
+}
+.envelopeButton:hover,
+.envelopeButton:focus{
+	text-decoration: none;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+/* FeedBackForm */
+
+.form-group.required .control-label:after { 
+  color: #d00;
+  content: "*";
+  position: relative;
+  margin-left: 10px;
+  top:0px;
+  font-weight: bold;
+}
+
+.custom-file-label {
+  overflow: hidden;
+}
+
+.custom-file-label::after {
+  content: "Найти";
+}
+
+.panel-success {
+  border-color: #29b74e;
+}
+.panel-success>.panel-heading {
+  color: #fff;
+  background-color: #2ecc71;
+  border-color: #29b74e;
+}
+.btn-success {
+  color: #fff;
+  background-color: #2ecc71;
+  border-color: #29b765;
+}
+.success {
+  color: #29b74e;
+}
+.jgrowl-error {
+  background-color: #a94442 !important;
+}
+
+.jgrowl-success {
+  background-color: #3c763d !important;
+}
+
+.jgrowl-warning {
+  background-color: #8a6d3b !important;
+}
+/*кнопка заказа звонка*/
+.stickyPhone {
+  cursor:pointer;
+  text-align:center;
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  z-index:999;
+  transition:.3s;
+  /*-webkit-animation:hoverWave linear 1s infinite;
+ animation:hoverWave linear 1s infinite;*/
+}
+
+img.phoneMe {
+  animation: 1200ms ease 0s normal none 1 running shake;
+  animation-iteration-count: infinite;
+  -webkit-animation: 1200ms ease 0s normal none 1 running shake;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+/* animations icon */
+@keyframes shake {
+0% {
+transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  -webkit-transform: rotateZ(0deg);
+}
+10% {
+transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  -webkit-transform: rotateZ(-30deg);
+}
+20% {
+transform: rotateZ(15deg);
+  -ms-transform: rotateZ(15deg);
+  -webkit-transform: rotateZ(15deg);
+}
+30% {
+transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  -webkit-transform: rotateZ(-10deg);
+}
+40% {
+transform: rotateZ(7.5deg);
+  -ms-transform: rotateZ(7.5deg);
+  -webkit-transform: rotateZ(7.5deg);
+}
+50% {
+transform: rotateZ(-6deg);
+  -ms-transform: rotateZ(-6deg);
+  -webkit-transform: rotateZ(-6deg);
+}
+60% {
+transform: rotateZ(5deg);
+  -ms-transform: rotateZ(5deg);
+  -webkit-transform: rotateZ(5deg);
+}
+70% {
+transform: rotateZ(-4.28571deg);
+  -ms-transform: rotateZ(-4.28571deg);
+  -webkit-transform: rotateZ(-4.28571deg);
+}
+80% {
+transform: rotateZ(3.75deg);
+  -ms-transform: rotateZ(3.75deg);
+  -webkit-transform: rotateZ(3.75deg);
+}
+90% {
+transform: rotateZ(-3.33333deg);
+  -ms-transform: rotateZ(-3.33333deg);
+  -webkit-transform: rotateZ(-3.33333deg);
+}
+100% {
+transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  -webkit-transform: rotateZ(0deg);
+}
+}
+
+@-webkit-keyframes shake {
+0% {
+transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  -webkit-transform: rotateZ(0deg);
+}
+10% {
+transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  -webkit-transform: rotateZ(-30deg);
+}
+20% {
+transform: rotateZ(15deg);
+  -ms-transform: rotateZ(15deg);
+  -webkit-transform: rotateZ(15deg);
+}
+30% {
+transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  -webkit-transform: rotateZ(-10deg);
+}
+40% {
+transform: rotateZ(7.5deg);
+  -ms-transform: rotateZ(7.5deg);
+  -webkit-transform: rotateZ(7.5deg);
+}
+50% {
+transform: rotateZ(-6deg);
+  -ms-transform: rotateZ(-6deg);
+  -webkit-transform: rotateZ(-6deg);
+}
+60% {
+transform: rotateZ(5deg);
+  -ms-transform: rotateZ(5deg);
+  -webkit-transform: rotateZ(5deg);
+}
+70% {
+transform: rotateZ(-4.28571deg);
+  -ms-transform: rotateZ(-4.28571deg);
+  -webkit-transform: rotateZ(-4.28571deg);
+}
+80% {
+transform: rotateZ(3.75deg);
+  -ms-transform: rotateZ(3.75deg);
+  -webkit-transform: rotateZ(3.75deg);
+}
+90% {
+transform: rotateZ(-3.33333deg);
+  -ms-transform: rotateZ(-3.33333deg);
+  -webkit-transform: rotateZ(-3.33333deg);
+}
+100% {
+transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  -webkit-transform: rotateZ(0deg);
+}
+}
+/* конец кнопки звонка */
