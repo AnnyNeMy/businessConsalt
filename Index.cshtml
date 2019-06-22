@@ -1,0 +1,822 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!Doctype HTML>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <!-- Required meta tags -->
+    <meta name="description" content="Консалтинговые услуги. Услуги бухгалтерского сопровождения бизнеса. Бухгалтерское сопровождение и обслуживание фирм." />
+    <meta name="keywords" content="бухгалтерские услуги, услуги бухгалтерского сопровождения, бухгалтерское сопровождение, бухгалтерское сопровождение бизнеса, бухгалтерское сопровождение фирм, аутсорс бухгалтерии москва,аутсорс бухгалтерии,удаленный бухгалтер, открыть ип, открыть ооо,аудиторские услуги, бухгалтерское обслуживание, бухгалтеркое сопровождение, бухгалтерское сопровождение и обслуживание, консалтинговые услуги, консалтинг фирма" />
+    <!--мета тег viewport, который позволяет выставить базовые настройки для корректного отображения сайта на мобильных устройствах-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no user-scalable=no" />
+
+    <title>Бухгалтерское сопровождение. Консалтинговые услуги</title>
+    <!-- Bootstrap CSS -->
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css"/>
+    <link href="~/Content/media.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/all.min.css" rel="stylesheet" type="text/css"/>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script src="~/Scripts/umd/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+    <script src="~/Scripts/all.min.js"></script>
+    <script src="~/Scripts/jquery.maskedinput.min.js"></script>
+    
+</head>
+<body>
+
+    <header class="fixed-top">
+
+        <nav class="navbar  navbar-expand-md navbar-dark bg-dark" role="navigation">
+            <a class="navbar-brand" href="#linkAboutCompany">
+                <img class="img-responcive" src="~/Content/themes/base/images/Var2.svg" width="220" alt=""/>
+            </a>
+            <button class="navbar-toggler" id="hamberger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="colirLink nav-link" href="#linkAboutCompany">О компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="colirLink nav-link" href="#linkAboutServices">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="colirLink nav-link" href="#linkPrice">Цены</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="colirLink nav-link" href="#linkContacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="stickyPhone">
+            <a data-toggle="modal" href="#CallbackFormModal" data-target="#CallbackFormModal" id="callBackIcon">
+                <img id="phoneMeID" class="phoneMe"  src="~/Content/themes/base/images/tel1.svg" width="60" alt=""  />
+                <img id="phoneMeHoverID" class="phoneMeHover"  src="~/Content/themes/base/images/tel2.svg"  width="60" alt="" />
+            </a>
+        </div>
+
+
+        <!--
+        <div type="button" class="callback-bt">
+            <div class="text-call">
+                <img class="phoneMe" src="Img/tel1.svg" width="60px" alt=""/>
+                <img class="phoneMeHover" src="Img/tel2.svg" width="60px" alt=""/>
+            </div>
+        </div>
+        -->
+        <!--
+           <div class="container" style="background-color: rgb(255, 255, 255)">
+               <div class="logotip">
+                  <div class="row">
+                    <div class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                      <div class="m20" id="linkToMain">
+                        <a class="logoPosition" href="#"><img class="img-responcive" src="Img/logo-one.png" alt=""/></a>
+                      </div>
+                    </div>
+                    <div class="d-none d-lg-block offset-lg-1 col-lg-3">
+                      <div class="m20 TextInTitle">
+                        <a class="TextInTitle telInTitle" href="https://goo.gl/maps/J2WnuFBeb392">
+                        <span class="TextInTitle telInTitle">ул. Шаболовка, 555 <br/>
+                          стр.5, оф.55</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                      <div class="m20 TextInTitle">
+                        <span class=""> <a class="TextInTitle telInTitle" href="tel:+79262586008">+7(000)000-00-00</a></span> <br/>
+                        <span class="" style="font-size: 10pt;"> myEmail@email.com </span>
+                      </div>
+                    </div>
+                    <div class="d-none  d-md-block col-md-4 col-lg-2">
+                      <div class="m20">
+                        <button type="button" class="callBack_btn btn btn-secondary btn-sm rounded my_btn_callback" data-toggle="modal" data-target="#CallbackFormModal"> Заказать звонок</button>
+                      </div>
+                    </div>
+               </div>
+              </div>
+            </div>
+        -->
+    </header>
+    <!--
+
+    -->
+
+    <div id="allContent">
+
+    </div>
+    <!-- О компании -->
+    <div class="OurActivity">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="OurActivity_Header" id="linkAboutCompany">
+                        <h4>О компании ООО "Бизнес Консалтинг"</h4>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-10 offset-lg-1 col-xl-10">
+                    <div>
+                        <div class="m20 Section1_Divs">
+                            <div class="TextInTitle form_titleForSpan" style="text-align: justify">
+                                <p>
+                                    Компания OOO "Бизнес Консалтинг" с 2005 года успешно работает на рынке консалтинговых услуг.
+                                </p>
+                                <p>
+                                    Основная наша задача - обеспечение доступных и профессиональных консалтинговых услуг.
+                                </p>
+                                <p>
+                                    Преимущества работы с нами:
+                                    <ul>
+                                        <li>снижение издержек;</li>
+                                        <li>сокращение  налоговых рисков;</li>
+                                        <li>применение современных стандартов учета;</li>
+                                        <li>возможность повысить эффективность бизнеса в целом и ускорить рост компании.</li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    Наши специалисты обеспечат комплексный и всесторонний подход к решению вопросов заказчика.
+                                    Мы ориентированы на долгосрочное сотрудничество с клиентами, поэтому готовы обеспечить индивидуальный подход к каждому клиенту.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="between_line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Основные направления деятельности -->
+    <section class="OurActivity">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="OurActivity_Header" id="linkAboutServices">
+                        <h4>Основные направления нашей деятельности</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-5 col-xl-4 offset-xl-1">
+                    <div class="m20 Section1_Divs">
+                        <div class="TextInTitle form_titleForSpan">
+                            <div height ="100%"> <i class="fa fa-check-circle fa-3x fa-pull-left Section1_Icon" aria-hidden="true" style="float: left;"></i>
+                                <div class="verticAlign">
+                                    Бухгалтерское обслуживание и сопровождение
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-lg-1 col-lg-6 col-xl-4 offset-xl-2">
+                    <div class="m20 Section1_Divs">
+                        <div class="TextInTitle form_titleForSpan">
+                            <div height="100%">
+                                <i class="fa fa-check-circle fa-pull-left fa-3x Section1_Icon" aria-hidden="true"></i>
+                                <div class="verticAlign">
+                                    Составление отчетности, в том числе «нулевой» отчетности
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-5 col-xl-4 offset-xl-1">
+                    <div class="m20 Section1_Divs">
+                        <div class="TextInTitle form_titleForSpan">
+                            <div style="height: 100%; display: flex">
+                                <i class="fa fa-check-circle fa-pull-left fa-3x Section1_Icon" aria-hidden="true"></i>
+                                <div class="verticAlign">
+                                    Предоставление отчетов в государственные и налоговые органы
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-lg-1 col-lg-6 col-xl-4 offset-xl-2">
+                    <div class="m20 Section1_Divs">
+                        <div class="TextInTitle form_titleForSpan">
+                            <div style="height: 100%; display: flex">
+                                <i class="fa fa-check-circle fa-pull-left fa-3x Section1_Icon" aria-hidden="true"></i>
+                                <div class="verticAlign">
+                                    Бухгалтерское консультирование и удаленная бухгалтерия
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-5 col-xl-4 offset-xl-1">
+                    <div class="m20 Section1_Divs">
+                        <div class="TextInTitle form_titleForSpan">
+                            <div style="height: 100%; display: flex">
+                                <i class="fa fa-check-circle fa-pull-left fa-3x Section1_Icon" aria-hidden="true"></i>
+                                <div class="verticAlign">
+                                    Ведение налогового учета
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-lg-1 col-lg-6 col-xl-4 offset-xl-2">
+                    <div class="m20 Section1_Divs">
+                        <div class="TextInTitle form_titleForSpan">
+                            <div style="height: 100%; display: flex">
+                                <i class="fa fa-check-circle fa-pull-left fa-3x Section1_Icon" aria-hidden="true"></i>
+                                <div class="verticAlign">
+                                    Начисление заработной платы
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-5 col-xl-4 offset-xl-1">
+                    <div class="m20 Section1_Divs">
+                        <div class="TextInTitle form_titleForSpan">
+                            <div style="height: 100%; display: flex">
+                                <i class="fa fa-check-circle fa-pull-left fa-3x Section1_Icon" aria-hidden="true"></i>
+                                <div class="verticAlign">
+                                    Постановка бухгалтерского учета
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-lg-1 col-lg-6 col-xl-4 offset-xl-2">
+                    <div class="m20 Section1_Divs">
+                        <div class="TextInTitle form_titleForSpan">
+                            <div style="height: 100%; display: flex">
+                                <i class="fa fa-check-circle fa-pull-left fa-3x Section1_Icon" aria-hidden="true"></i>
+                                <div class="verticAlign">
+                                    Восстановление бухгалтерского учета
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 offset-lg-1 col-lg-10">
+                    <div class="between_line m20-top"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br />
+
+    <!-- Стоимость услуг -->
+    <div class="Section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="OurActivity_Header" id="linkPrice">
+                        <h4> <i class="fa fa-calculator fa-2x SpanBeforeI" aria-hidden="true"></i> Стоимость услуг</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding" style="background-color: rgb(255, 255, 255);">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское обслуживание ИП
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding" style="background-color: rgb(255, 255, 255);">
+                    <div class="Price">
+                        <span class="">
+                            от 5000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское обслуживание организаций в сфере услуг
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding">
+                    <div class="Price">
+                        <span class="">
+                            от 6000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское обслуживание организаций в сфере аренды
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding">
+                    <div class="Price">
+                        <span class="">
+                            от 7000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское обслуживание организаций, занимающихся торговлей
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding">
+                    <div class="Price">
+                        <span class="">
+                            от 9000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское обслуживание турагентств
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding">
+                    <div class="Price">
+                        <span class="">
+                            от 10000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское обслуживание организаций в сфере услуг по общественному питанию
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding">
+                    <div class="Price">
+                        <span class="">
+                            от 12000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское обслуживание НКО
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding">
+                    <div class="Price">
+                        <span class="">
+                            от 14000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское обслеживание транспортно-логистических компаний
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding">
+                    <div class="Price">
+                        <span class="">
+                            от 13000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское сопровождение интернет-магазинов
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding">
+                    <div class="Price">
+                        <span class="">
+                            от 14000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-9 col-lg-8 offset-lg-1 col-xl-7 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="">
+                            Бухгалтерское сопровождение строительных и производственных компаний
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-2 col-xl-2 divWithoutPadding">
+                    <div class="Price">
+                        <span class="">
+                            от 16000р
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 offset-lg-1 col-lg-10">
+                <div class="between_line m20-top"></div>
+            </div>
+        </div>
+    </div>
+    <br/>
+
+    <!-- Контактные даные -->
+    <div class="Section1 PrintContact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="OurActivity_Header" id="linkContacts">
+                        <h4> <i class="fa fa-map-marked-alt fa-2x SpanBeforeI" aria-hidden="true"></i> Контактные данные </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-5 offset-lg-1 col-xl-4 offset-xl-2 divWithoutPadding">
+                    <div class="descriptionForPrice PaddingTop15">
+                        <span class="OurActivity_Header">
+                            <a href="tel:+7000-000-"  title="Позвонить нам" class="phoneButton btn"> <i id="phoneIcon" class="fa fa-phone fa-2x SpanBeforeI" aria-hidden="true"></i></a> &nbsp +7(555)555-55-55 <br /> <br /> 
+                         <!--
+                            <button type="button" class="phoneButton btn" title="Позвонить нам"> <a href="tel:+7000-000-"> <i id="phoneIcon" class="fa fa-phone fa-2x SpanBeforeI" aria-hidden="true"></i></a></button> &nbsp +7(555)555-55-55 <br/> <br/>  
+                         -->  
+                            <button type="button" class="envelopeButton btn" data-toggle="modal" data-target="#feedbackFormModal" title="Отправить сообщение"><i id="envelopeIcon" class="fa fa-envelope fa-2x SpanBeforeI" aria-hidden="true"></i> </button> &nbsp  myEmail@email.com
+                        </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4 divWithoutPadding">
+                    <div class="descriptionForPrice">
+                        <span class="OurActivity_Header FontSize12">
+                            Адрес:  <button type="button" class="printButton btn" data-toggle="modal" title="Напечатать"><i id="printIcon" class="fa fa-print fa-2x SpanBeforeI" aria-hidden="true"></i> </button>  <br/>
+                            <a class="TextInTitle telInTitle textAdress" href="https://goo.gl/maps/J2WnuFBeb392">
+                                <span class="OurActivity_Header FontSize12">г. Москва, ул. Шаболовка, 55, стр.5, оф.55 <br /></span> 
+                            </a><br/>
+                            Время работы: <br/>
+                            с 9.00 до 18.00.
+                            Выходные: Сб, Вс.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="Contacts_Map">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2f32af40ba44b54eb1d7d98758c6f64c306ebbb42b80c41278931968e83198d8&amp;source=constructor" width="578" height="442" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Форма обратной связи в модальном окне -->
+    <div class="modal fade" id="feedbackFormModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Форма обратной связи</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="needs-validation"  id="postMail" novalidate action='@Url.Action("postMessage", "Buisness")' title="" method="post">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="validationCustom01">Имя</label>
+                                <input type="text" class="form-control" id="PostingName" placeholder="Имя" required>
+                                <div class="invalid-feedback">
+                                    Пожалуйста, введите имя
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom02">Email</label>
+                                <input type="email" class="form-control" id="PostingEmail" placeholder="Email" required>
+                                <div class="invalid-feedback">
+                                    Пожалуйста, введите Email
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <label for="validationCustom03">Контактный телефон</label>
+                                <input type="text" class="form-control" id="PostingPhoneNumber" placeholder="Ваш телефон">
+                                <div class="invalid-feedback">
+                                    Пожалуйста, введите телефон
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="validationCustom04">Сообщение (не менее 20 символов)</label>
+                                <textarea type="text" class="form-control" id="PostingMessage" placeholder="Сообщение (не менее 20 символов)" rows="3" minlength="20" maxlength="500" required></textarea>
+                                <div class="invalid-feedback">
+                                    Пожалуйста, введите сообщение
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="ifCheckPosting" required>
+                                <label class="form-check-label" for="ifCheckPosting">
+                                    Я даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных»
+                                </label>
+                                <div class="invalid-feedback">
+                                    Необходимо Ваше согласие перед отправкой формы
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Форма заказа звонка в модальном окне -->
+    <div class="modal fade" id="CallbackFormModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Форма заказа обратного звонка</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form class="needs-validation callBack" id="phoneMe" action='@Url.Action("phoneBack", "Buisness")' title="" method="post" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="validationCustom01Phone">Имя</label>
+                                <input type="text" class="form-control" name="name" id="validationCustom01Phone" placeholder="Имя" required>
+                                <div class="invalid-feedback">
+                                    Пожалуйста, введите имя
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom02Phone">Номер телефона</label>
+                                <input type="text" name="name" class="form-control" id="validationCustom02Phone"  placeholder="Ваш телефон" required>
+                                <div class="invalid-feedback">
+                                    Пожалуйста, введите телефон
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary m20-top" id="submitCallMe" type="submit">Прошу мне перезвонить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content"></div>
+
+    <!--
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffc2XZe4wCeHqLsLbKL4JgdMlmCyJIzF67HwtiQtjmBwiNpA/viewform?embedded=true" width="640" height="747" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>
+       -->
+
+    <script>
+
+        $(function () {
+            // определяем устройство ли с тач дисплеем или десктоп и во втором случае подключаем hover
+            if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+                console.log('this is a touch device');
+            } else {
+                console.log('this is not a touch device');
+                document.body.classList.add('no-touch');
+            }
+
+            // при изменении высоты нав панели, изменияем padding-top у body
+        var onResize = function() {
+        var height = $("header").height();
+        $("body, html").css("padding-top", height);
+        };
+
+        var navHeight = $("header").height();
+        $("body, html").css("padding-top", 55);
+
+        $(".phoneMeHover").hide();
+
+
+    $(".stickyPhone").mouseover(function(){
+          $(".phoneMeHover").show();
+          $(".phoneMe").hide();
+      })
+     $(".stickyPhone").mouseout(function(){
+          $(".phoneMeHover").hide();
+          $(".phoneMe").show();
+      })
+
+      $(".stickyPhone").click(function(){
+
+      })
+
+      $("#validationCustom02Phone, #PostingPhoneNumber").mask("8(999) 999-9999");
+
+     //  $(window).resize(onResize);
+     //  $(sc).offset().top - heig;
+
+
+// Анимация иконки телефона
+      function hoverBattonPhone(){
+        $(".phoneButton").hover(function(){
+            $("#phoneIcon").addClass("fa-phone-volume").removeClass("fa-phone");
+        },
+        function(){
+            $("#phoneIcon").addClass("fa-phone").removeClass("fa-phone-volume");
+        }
+        )
+      }
+      hoverBattonPhone();
+
+// Анимация иконки конверта (отправки email)
+      function hoverBattonEnvelope(){
+        $("button.envelopeButton").hover(function(){
+          $("#envelopeIcon").addClass("fa-envelope-open").removeClass("fa-envelope");
+        },
+        function(){
+          $("#envelopeIcon").addClass("fa-envelope").removeClass("fa-envelope-open");
+        }
+        )
+      }
+      hoverBattonEnvelope();
+
+// Анимация иконки печать
+      function hoverBattonPrint(){
+        $("button.printButton").hover(function(){
+            $("#printIcon").addClass("fa-file-alt").removeClass("fa-print");
+        },
+        function(){
+            $("#printIcon").addClass("fa-print").removeClass("fa-file-alt");
+        }
+        )
+      }
+      hoverBattonPrint();
+
+
+// чтобы над кнопками-иконками всплывали подсказки
+      $('a.phoneButton').tooltip();
+      $('button.envelopeButton').tooltip();
+      $('button.printButton').tooltip();
+
+
+
+    $("form").on("submit",function (event) {
+        //  event.preventDefault();
+        $("#content").empty();
+            // Получение ID формы
+        var formID = $(this).attr('id');
+        console.log("formID:  " + formID);
+            // Добавление решётки к имени ID
+        var formNm = $('#' + formID);
+        console.log("formNm:  " + formNm);
+        var URL = formNm.attr("action");
+        console.log("URL:  " + URL);
+       
+        if (this.checkValidity() === false) {
+                this.reportValidity();
+                event.stopPropagation();
+                return false;
+        }
+        if(formID=="phoneMe"){
+              var posting = {
+            postingName: $('#validationCustom01Phone').val().toString(),
+            postingTelNumber: $('#validationCustom02Phone').val().toString()
+            }
+             formNm.addClass('was-validated');
+              $.ajax({
+                  type: "POST",
+                  url: URL,
+                  data: posting,
+                  //  beforeSend: function () {
+                  //      formNm.addClass('was-validated');
+                  //   },
+                  success: function (data) {
+                      // Вывод текста результата отправки
+                      //alert("Успех")
+                      formNm.addClass('was-validated');
+                      $('#CallbackFormModal').modal('hide')
+                      $("#content").html(data);
+                  },
+                  error: function (jqXHR, text, error) {
+                      // Вывод текста ошибки отправки
+                      $(formNm).html(error);
+                  }
+              })
+              }
+         if (formID == "postMail") {
+            var posting = {
+                postingName: $('#PostingName').val().toString(),
+                postingEmail: $('#PostingEmail').val().toString(),
+                postingTelNumber: $('#PostingPhoneNumber').val().toString(),
+                postingMessage: $('#PostingMessage').val().toString()
+            }
+            formNm.addClass('was-validated');
+            $.ajax({
+                type: "POST",
+                url: URL,
+                data: posting,
+                //  beforeSend: function () {
+                //      formNm.addClass('was-validated');
+                //   },
+                success: function (data) {
+                    // Вывод текста результата отправки
+
+                    formNm.addClass('was-validated');
+                    $('#feedbackFormModal').modal('hide')
+
+                    $("#content").html(data);
+                },
+                error: function (jqXHR, text, error) {
+                    // Вывод текста ошибки отправки
+                    $(formNm).html(error);
+                }
+            })
+       }
+        return false;
+    });
+    
+
+
+// сделаем плавный переход по ссылке по странице (якорь)
+    (function(){
+      $('a[href^="#link"]').click(function(event) {
+      // отменяем стандартное действие
+        event.preventDefault();
+    // создадим переменную, в нее заносим информацию о том, к какому блоку надо перейти
+        var sc = $(this).attr("href"),
+    // Определяем положение блока на странице
+        dn = $(sc).offset().top;
+        dn1 = $(sc).offset().top - 117-20;
+
+       $('html, body').stop().animate({scrollTop: dn1}, 1000);
+       $('#hamberger').addClass('collapsed');
+       $('#hamberger').attr("aria-expanded", "false")
+       $('#navbarNav').removeClass('show');
+      });
+    })();
+
+  // печать карты - ее мы реализовали через media print (media.css)
+    $('button.printButton').click(function(){
+       window.print();
+    })
+
+
+  })
+    </script>
+
+
+</body>
+</html>
